@@ -1,3 +1,7 @@
+"""
+@author: roycek
+"""
+
 import math
 
 import numpy as np
