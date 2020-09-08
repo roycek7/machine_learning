@@ -1,1 +1,1 @@
-# machine_learning
+# UQ Machine Learning
