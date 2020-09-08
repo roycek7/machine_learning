@@ -19,7 +19,7 @@ def calculate_centroids(data, cluster_centroid, K):
         mean_centroid = np.mean(new_centroids, axis=0)
         new_centroid.append(mean_centroid)
         for i in range(len(new_centroids)):
-            sse = np.sum(np.square(new_centroids[i] - new_centroid[_]))
+            sse += np.square(new_centroids[i] - new_centroid[_])
     print(f'SSE: {sse}')
     return new_centroid
 
